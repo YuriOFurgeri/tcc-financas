@@ -31,4 +31,12 @@ export const connectToDatabase = () => {
     });
   };
   
+  /*
+  export const getUserByEmailAndPassword = (email, password) => {
+    const query = 'SELECT * FROM usuarios WHERE email = ? AND password = ?';
+    const values = [email, password];
+    
+    return queryDatabase(query, values);
+  };
+*/
   export default db;
